@@ -55,6 +55,7 @@ public class PlayerMovement : MonoBehaviour
     public Text GoldText;
     public Text SilverText;
     public Text PlatinumText;
+    public Text DiamondText;
     public Text bankNumber;
     public Text healthNumber;
     public Text silverPrice;
@@ -126,6 +127,7 @@ public class PlayerMovement : MonoBehaviour
         GoldText.text = goldNumber.ToString();
         SilverText.text = silverNumber.ToString();
         PlatinumText.text = platiniumNumber.ToString();
+        DiamondText.text = diamondNumber.ToString();
         bankNumber.text = "$" + money.ToString();
         healthNumber.text = healt.ToString();
         hospitalDaysText.text = ((100 - healt) / 10.0f).ToString();
@@ -729,7 +731,7 @@ public class PlayerMovement : MonoBehaviour
                 return (false, false);
             }
 
-            if (goodOrBad + luckModifier > 0.5f)
+            if (goodOrBad + luckModifier > 0.6f)
             {
                 //Good
                 var findWhat = Random.value;

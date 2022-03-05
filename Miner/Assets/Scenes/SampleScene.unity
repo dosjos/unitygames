@@ -2344,7 +2344,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &374358597
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2684,7 +2684,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &498454357
 RectTransform:
   m_ObjectHideFlags: 0
@@ -62531,6 +62531,7 @@ MonoBehaviour:
   GoldText: {fileID: 774532915}
   SilverText: {fileID: 1792192397}
   PlatinumText: {fileID: 918594642}
+  DiamondText: {fileID: 359771677}
   bankNumber: {fileID: 2082608243}
   healthNumber: {fileID: 2078917934}
   silverPrice: {fileID: 811425004}
@@ -109346,7 +109347,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Congratulation, she will ove you until you die, or your money runs out.
+  m_Text: Congratulation, she will love you until you die, or your money runs out.
 --- !u!222 &1692122327
 CanvasRenderer:
   m_ObjectHideFlags: 0
